@@ -19,7 +19,8 @@ public class timer : MonoBehaviour
     void Update()
     {
         if (finnished)
-            return;
+        { return; }
+
         float t = Time.time - startTime;
 
         string minutes = ((int)t / 60).ToString();
@@ -28,9 +29,13 @@ public class timer : MonoBehaviour
         timertext.text = minutes + ":" + seconds;
     }
 
-    public void Finnish()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        finnished = true;
-        timertext.color = Color.yellow;
+        if(collision.CompareTag("Finnish"))
+        {
+            Time.timeScale = 0;
+            print("poop");
+        }
     }
+  
 }
