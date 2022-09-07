@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 36147171}
   - component: {fileID: 36147181}
   m_Layer: 0
-  m_Name: orange
+  m_Name: Orange
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1111,7 +1111,7 @@ Transform:
   m_Children:
   - {fileID: 1056984746}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!50 &223031562
 Rigidbody2D:
@@ -1409,7 +1409,7 @@ Transform:
   m_Children:
   - {fileID: 950650783}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &224185577
 MonoBehaviour:
@@ -3329,7 +3329,7 @@ Transform:
   m_Children:
   - {fileID: 1136480582}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1451981757
 GameObject:
@@ -3429,7 +3429,7 @@ Transform:
   m_LocalScale: {x: 1.72417, y: 1.72417, z: 1.72417}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1451981761
 Animator:
@@ -3622,7 +3622,7 @@ GameObject:
   - component: {fileID: 1563397094}
   - component: {fileID: 1563397104}
   m_Layer: 0
-  m_Name: black
+  m_Name: Black
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4389,7 +4389,7 @@ Transform:
   m_Children:
   - {fileID: 220950851}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &1706704472
 MonoBehaviour:
