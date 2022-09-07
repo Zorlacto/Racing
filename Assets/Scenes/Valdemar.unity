@@ -141,8 +141,9 @@ GameObject:
   - component: {fileID: 36147173}
   - component: {fileID: 36147172}
   - component: {fileID: 36147171}
+  - component: {fileID: 36147181}
   m_Layer: 0
-  m_Name: Green Car (2)
+  m_Name: orange
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +250,7 @@ MonoBehaviour:
   radius: 0.77
   height: 2
   canMove: 1
-  maxSpeed: 32
+  maxSpeed: 31
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -267,7 +268,7 @@ MonoBehaviour:
     visualizeSensitivity: 1
   targetCompatibility: {fileID: 0}
   maxAcceleration: 13
-  rotationSpeed: 170
+  rotationSpeed: 180
   slowdownDistance: 0.6
   pickNextWaypointDist: 6
   endReachedDistance: 0.2
@@ -395,6 +396,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &36147181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36147170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 1500
+  randomStep: 15
 --- !u!1 &135461513
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,6 +929,7 @@ GameObject:
   - component: {fileID: 223031562}
   - component: {fileID: 223031563}
   - component: {fileID: 223031564}
+  - component: {fileID: 223031565}
   m_Layer: 0
   m_Name: Red Car
   m_TagString: Player
@@ -950,7 +967,7 @@ MonoBehaviour:
   radius: 0.77
   height: 2
   canMove: 1
-  maxSpeed: 35
+  maxSpeed: 38
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -967,8 +984,8 @@ MonoBehaviour:
     maximumInterval: 0
     visualizeSensitivity: 1
   targetCompatibility: {fileID: 0}
-  maxAcceleration: 12
-  rotationSpeed: 150
+  maxAcceleration: 14
+  rotationSpeed: 360
   slowdownDistance: 0.6
   pickNextWaypointDist: 6
   endReachedDistance: 0.2
@@ -1145,6 +1162,21 @@ MonoBehaviour:
   version: 1
   unwrap: 1
   splitAtEveryPortal: 0
+--- !u!114 &223031565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223031555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 1500
+  randomStep: 15
 --- !u!1 &224185568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,8 +1920,9 @@ GameObject:
   - component: {fileID: 531271503}
   - component: {fileID: 531271502}
   - component: {fileID: 531271501}
+  - component: {fileID: 531271511}
   m_Layer: 0
-  m_Name: Green Car (1)
+  m_Name: Cyan
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1996,7 +2029,7 @@ MonoBehaviour:
   radius: 0.77
   height: 2
   canMove: 1
-  maxSpeed: 32
+  maxSpeed: 35
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -2142,6 +2175,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &531271511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531271500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 1500
+  randomStep: 15
 --- !u!1 &760394287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,8 +2316,9 @@ GameObject:
   - component: {fileID: 810892691}
   - component: {fileID: 810892690}
   - component: {fileID: 810892689}
+  - component: {fileID: 810892698}
   m_Layer: 0
-  m_Name: Red Car (3)
+  m_Name: Blue
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2354,7 +2403,7 @@ MonoBehaviour:
   radius: 0.77
   height: 2
   canMove: 1
-  maxSpeed: 35
+  maxSpeed: 33
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -2372,7 +2421,7 @@ MonoBehaviour:
     visualizeSensitivity: 1
   targetCompatibility: {fileID: 0}
   maxAcceleration: 12
-  rotationSpeed: 150
+  rotationSpeed: 175
   slowdownDistance: 0.6
   pickNextWaypointDist: 6
   endReachedDistance: 0.2
@@ -2500,6 +2549,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &810892698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810892688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 1500
+  randomStep: 15
 --- !u!1 &934940108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,8 +3620,9 @@ GameObject:
   - component: {fileID: 1563397096}
   - component: {fileID: 1563397095}
   - component: {fileID: 1563397094}
+  - component: {fileID: 1563397104}
   m_Layer: 0
-  m_Name: Green Car (3)
+  m_Name: black
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3664,7 +3729,7 @@ MonoBehaviour:
   radius: 0.77
   height: 2
   canMove: 1
-  maxSpeed: 32
+  maxSpeed: 35
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -3681,7 +3746,7 @@ MonoBehaviour:
     maximumInterval: 0
     visualizeSensitivity: 1
   targetCompatibility: {fileID: 0}
-  maxAcceleration: 13
+  maxAcceleration: 11
   rotationSpeed: 170
   slowdownDistance: 0.6
   pickNextWaypointDist: 6
@@ -3810,6 +3875,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &1563397104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563397093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 1500
+  randomStep: 15
 --- !u!1 &1704148736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3827,8 +3907,9 @@ GameObject:
   - component: {fileID: 1704148739}
   - component: {fileID: 1704148738}
   - component: {fileID: 1704148737}
+  - component: {fileID: 1704148746}
   m_Layer: 0
-  m_Name: Red Car (1)
+  m_Name: Pink
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3913,7 +3994,7 @@ MonoBehaviour:
   radius: 0.77
   height: 2
   canMove: 1
-  maxSpeed: 35
+  maxSpeed: 32
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -3930,7 +4011,7 @@ MonoBehaviour:
     maximumInterval: 0
     visualizeSensitivity: 1
   targetCompatibility: {fileID: 0}
-  maxAcceleration: 12
+  maxAcceleration: 20
   rotationSpeed: 150
   slowdownDistance: 0.6
   pickNextWaypointDist: 6
@@ -4059,6 +4140,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &1704148746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704148736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 1500
+  randomStep: 15
 --- !u!1 &1706704463
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,6 +4173,7 @@ GameObject:
   - component: {fileID: 1706704464}
   - component: {fileID: 1706704472}
   - component: {fileID: 1706704473}
+  - component: {fileID: 1706704474}
   m_Layer: 0
   m_Name: Green Car
   m_TagString: Player
@@ -4331,6 +4428,21 @@ MonoBehaviour:
   bezierTangentLength: 0.4
   offset: 0.2
   factor: 0.1
+--- !u!114 &1706704474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706704463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 10000000
+  randomStep: 15
 --- !u!1 &1787710144
 GameObject:
   m_ObjectHideFlags: 0
@@ -4972,8 +5084,9 @@ GameObject:
   - component: {fileID: 1999925747}
   - component: {fileID: 1999925746}
   - component: {fileID: 1999925745}
+  - component: {fileID: 1999925754}
   m_Layer: 0
-  m_Name: Red Car (2)
+  m_Name: Yellow
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5058,7 +5171,7 @@ MonoBehaviour:
   radius: 0.77
   height: 2
   canMove: 1
-  maxSpeed: 35
+  maxSpeed: 38
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -5075,8 +5188,8 @@ MonoBehaviour:
     maximumInterval: 0
     visualizeSensitivity: 1
   targetCompatibility: {fileID: 0}
-  maxAcceleration: 12
-  rotationSpeed: 150
+  maxAcceleration: 11
+  rotationSpeed: 210
   slowdownDistance: 0.6
   pickNextWaypointDist: 6
   endReachedDistance: 0.2
@@ -5204,6 +5317,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &1999925754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999925744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537d958aa5bb4f35b0d7b40d72278f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  penalty: 1500
+  randomStep: 15
 --- !u!1 &2022383309
 GameObject:
   m_ObjectHideFlags: 0
