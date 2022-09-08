@@ -2010,9 +2010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3944,7 +3942,7 @@ GameObject:
   - component: {fileID: 758949095}
   - component: {fileID: 758949094}
   m_Layer: 5
-  m_Name: VALUE
+  m_Name: Car Color
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4594,8 +4592,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 306.98584, y: -83.51305}
-  m_SizeDelta: {x: 177.0283, y: 42.9739}
+  m_AnchoredPosition: {x: 309.16302, y: -82.21305}
+  m_SizeDelta: {x: 100.9716, y: 42.9739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883013192
 MonoBehaviour:
@@ -5741,7 +5739,7 @@ GameObject:
   - component: {fileID: 1065880329}
   - component: {fileID: 1065880328}
   m_Layer: 5
-  m_Name: GameOver
+  m_Name: Won the race
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8785,7 +8783,7 @@ GameObject:
   - component: {fileID: 1533349686}
   - component: {fileID: 1533349685}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: You are playing as
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9764,8 +9762,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 113.2, y: -83.513}
-  m_SizeDelta: {x: 177.03, y: 42.974}
+  m_AnchoredPosition: {x: 309, y: -28.4}
+  m_SizeDelta: {x: 100.9726, y: 42.974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1666462398
 MonoBehaviour:
@@ -11397,7 +11395,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
