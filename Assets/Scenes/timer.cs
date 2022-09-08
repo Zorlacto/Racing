@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class timer : MonoBehaviour
 {
-
+    public GameObject[] characterpre;
     public Text timertext;
     private float startTime;
     private bool finnished = false;
+    public TMP_Text whoFinished;
+    public GameObject gameover;
+    
 
     void Start()
     {
@@ -33,9 +37,14 @@ public class timer : MonoBehaviour
     {
         if(collision.CompareTag("Finnish"))
         {
+            finnished = true;
             Time.timeScale = 0;
             timertext.color = Color.yellow;
-            print("poop");
+            gameover.SetActive(true);
+            int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
+            GameObject prefab = characterpre[selectedCharacter];
+            whoFinished.text = prefab.name;
+            
         }
     }
   
