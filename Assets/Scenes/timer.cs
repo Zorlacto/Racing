@@ -34,6 +34,7 @@ public class timer : MonoBehaviour
         if(collision.CompareTag("Finnish"))
         {
             Time.timeScale = 0;
+            timertext.color = Color.yellow;
             print("poop");
         }
     }
