@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 9193021581665818066}
   - component: {fileID: 9193021581665818067}
   m_Layer: 0
-  m_Name: pink
+  m_Name: purple
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -426,7 +426,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 921300c9c161b6f49b7b4c3e58329313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterpre: []
   timertext: {fileID: 0}
+  whoFinished: {fileID: 0}
+  gameover: {fileID: 0}
 --- !u!114 &9193021581665818066
 MonoBehaviour:
   m_ObjectHideFlags: 0
